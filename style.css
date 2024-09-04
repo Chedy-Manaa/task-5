@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+body{
+    background-color: #fafaf8;
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+}
+.navbar{
+    background-color: #141414;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    margin-left: 20px;
+}
+.menu{
+    display: flex;
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+}
+.panier{
+    margin-right: 20px;
+}
+
+ .footer {
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+ }
+
+ .description {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .socials{
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    align-items: center;
+ }
+
+ .socials ul {
+    list-style: none;
+    display: flex; 
+    gap: 10px;
+ }
+
+ .textContent {
+        height: 80%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+ }
+
+ .socialMedia {
+    display: flex;
+    gap: 10px;
+ }
